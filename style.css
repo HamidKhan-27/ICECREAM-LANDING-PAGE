@@ -1,18 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Titan+One:regular);
 @import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 html,
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
-header{
-  background-color: #FFB8CA;
+header {
+  background-color: #ffb8ca;
   min-height: 665px;
   position: relative;
 }
@@ -50,7 +50,7 @@ nav a {
 
 .brown a {
   text-decoration: none;
-  color:   #D41443;
+  color: #d41443;
 }
 
 .buy-btn {
@@ -61,7 +61,7 @@ nav a {
   background-color: white;
   font-size: 1rem;
   font-weight: 600;
-  color: #D41443;
+  color: #d41443;
   padding: 10px 25px;
   border: none;
   border-radius: 30px;
@@ -99,7 +99,7 @@ nav a {
 }
 
 .text-section h1 span {
-  color: #D41443;
+  color: #d41443;
   font-size: 55px;
 }
 
@@ -116,12 +116,12 @@ nav a {
   border: none;
   width: 104px;
   height: 40px;
-  background-color: #D41443;
+  background-color: #d41443;
   cursor: pointer;
 }
 
-.how-it-made{
-  color: #D41443;
+.how-it-made {
+  color: #d41443;
   background-color: white;
   width: 138px;
   height: 40px;
@@ -154,13 +154,12 @@ nav a {
   margin-top: 10px;
 }
 
-
 .circle {
   position: absolute;
   top: 52px;
   width: 500px;
   height: 500px;
-  background-color: #FFA5BA;
+  background-color: #ffa5ba;
   border-radius: 100%;
   left: 50%;
   transform: translateX(-35%);
@@ -182,45 +181,141 @@ nav a {
   padding: 50px 7%;
 }
 
-.stats{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 25px;
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 25px;
 }
 
-.stat{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.number-box{
-    position: relative;
+.number-box {
+  position: relative;
 }
 
-.number-box h2{
-    font-family: "Titan One", sans-serif;
-    font-size: 46px;
-    color: #D41443;
-    position: relative;
-    z-index: 2;
+.number-box h2 {
+  font-family: "Titan One", sans-serif;
+  font-size: 46px;
+  color: #d41443;
+  position: relative;
+  z-index: 2;
 }
 
-.white-circle{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    border-radius: 50%;
-    top: 0;
-    right: -15px;
-    z-index: 1;
+.white-circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  top: 0;
+  right: -15px;
+  z-index: 1;
 }
 
-.stat p{
-    font-family: "DM Sans", sans-serif;
-    color: #fff;
-    font-size: 14px;
-    z-index: 2;
+.stat p {
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  z-index: 2;
+}
+
+.natural {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d41443;
+  font-family: Titan One;
+  font-size: 30px;
+  letter-spacing: 4px;
+  opacity: 0.6;
+  margin-top: 50px;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d41443;
+  font-family: Titan One;
+  font-size: 58px;
+  letter-spacing: 6px;
+  margin-top: 20px;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 120px;
+  gap: 30px;
+}
+
+.card {
+  height: 575px;
+  width: 320px;
+  margin: 80px 0;
+}
+
+.card-header {
+  position: relative;
+}
+
+.card-header img {
+  position: absolute;
+  top: -200px;
+  width: 320px;
+}
+
+.card-footer {
+  background-color: #fea5bb;
+  color: #ffffff;
+  height: 525px;
+  width: 329px;
+  border-radius: 24px;
+}
+
+.card-1 {
+  background-color: #ffb8ca;
+}
+
+.card-2 {
+  background-color: #f0d1a5;
+}
+
+.card-3 {
+  background-color: #c2e297;
+}
+
+.card h1 {
+  font-family: Titan One;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.dots {
+  font-size: 50px;
+  text-align: center;
+}
+
+.card-lorem {
+  font-family: DM sans;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.6;
+  padding: 20px 17%;
+}
+
+.right-arrow {
+  text-align: center;
+  padding: 30px 0;
 }
