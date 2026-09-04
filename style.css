@@ -696,3 +696,227 @@ footer {
   padding: 10px 0;
   border-top: 1px solid rgb(196, 196, 196);
 }
+
+@media (max-width: 768px) {
+  .li-container {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .stats {
+    display: none;
+  }
+
+  .circle {
+    transform: translateX(-30%);
+  }
+
+  .icecream-image {
+    transform: translateX(-20%);
+  }
+
+  .right-section {
+    padding-left: 0;
+  }
+  .image-section {
+    max-width: 400px;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .testimonial-par {
+    width: 100%;
+    max-width: 620px;
+    padding: 30px;
+    margin: 0 auto;
+    transform: none;
+  }
+
+  .testimonial-par p {
+    font-size: 14px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 426px) {
+  header {
+    min-height: 485px;
+  }
+
+  .text-section {
+    width: 70%;
+  }
+
+  .text-section h1 {
+    padding-left: 0;
+    font-size: 30px;
+  }
+
+  .text-section h1 span {
+    font-size: 42px;
+  }
+
+  .left-section-btns {
+    padding-left: 0;
+  }
+
+  .left-section-content {
+    display: none;
+  }
+
+  .circle {
+    width: 300px;
+    height: 300px;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-35%);
+  }
+
+  .icecream-image {
+    width: 150px;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .icecream-image img {
+    width: 100%;
+  }
+
+  .product {
+    border-radius: 17px;
+    font-size: 14px;
+    width: 90px;
+    height: 34px;
+  }
+
+  .how-it-made {
+    width: 120px;
+    height: 34px;
+    font-size: 14px;
+    border-radius: 17px;
+  }
+
+  .natural {
+    font-size: 20px;
+  }
+
+  .products {
+    font-size: 36px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .card-footer {
+    width: 100%;
+  }
+
+  .card-header img {
+    width: 100%;
+  }
+
+  .traditional-h1 {
+    font-size: 20px;
+  }
+
+  .traditional-h2 {
+    font-size: 36px;
+  }
+
+  .content-section {
+    text-align: center;
+  }
+
+  .testimonial-par {
+    padding: 20px;
+  }
+
+  .testimonial-par p {
+    font-size: 13px;
+  }
+
+  .bottom-btns {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .franchise-btn {
+    margin-left: 0;
+  }
+
+  .heading-div {
+    text-align: center;
+  }
+
+  .light {
+    font-size: 22px;
+  }
+
+  .dark {
+    font-size: 36px;
+  }
+
+  .icon-div {
+    text-align: center;
+  }
+
+  .last-p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .products {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+
+  .natural {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .cards-section {
+    margin-top: 140px;
+    row-gap: 100px;
+  }
+
+  .card {
+    width: 280px;
+  }
+
+  .card-footer {
+    width: 280px;
+    height: 500px;
+  }
+
+  .card-header img {
+    width: 280px;
+    top: -170px;
+  }
+
+  .card h1 {
+    font-size: 24px;
+    padding-top: 145px;
+  }
+
+  .card-lorem {
+    font-size: 14px;
+    padding: 20px 12%;
+  }
+
+  .bottom-card {
+    width: 90%;
+  }
+}
